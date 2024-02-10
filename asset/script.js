@@ -43,7 +43,7 @@ $('.kehome').click(function() {
 
 $('.kehalaman2').click(function() {
     var ifname = document.getElementById("nama").value;
-    if(ifname.match("Tina") != null) {
+    if(ifname.search("Tina") != -1) {
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
         }, 1100);
