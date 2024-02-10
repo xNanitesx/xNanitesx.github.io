@@ -42,18 +42,21 @@ $('.kehome').click(function() {
 
 
 $('.kehalaman2').click(function() {
-    setTimeout(function() {
-        $('.halaman2').addClass('fadeIn');
-    }, 1100);
+    var ifname = document.getElementById("nama").value;
+    if(ifname.match(/^Tina$/)) {
+        setTimeout(function() {
+            $('.halaman2').addClass('fadeIn');
+        }, 1100);
 
-    JalaninTeks();
-    PuterLagu();
-    Ambilnama();
+        JalaninTeks();
+        PuterLagu();
+        Ambilnama();
+    }
 });
 
 var i = 0;
 var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
-var speed = 200;
+var speed = 50;
 
 function JalaninTeks() {
     if (i < txt.length) {
