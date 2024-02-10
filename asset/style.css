@@ -41,7 +41,7 @@
     width: 330px;
     align-items: center;
     align-content: center;
-    color: #ff6171;
+    color: #ff919c;
 }
 
 .tengah2 span {
@@ -63,9 +63,9 @@
 .inputnama {
     width: 80%;
     padding: 8px;
-    border: 2px solid #ff6171;
+    border: 2px solid #ff919c;
     background: #f9f9f9;
-    color: #ff6171;
+    color: #ff919c;
     border-radius: 8px;
     outline: none !important;
     font-weight: bold;
@@ -73,16 +73,16 @@
 }
 
 .inputnama::placeholder {
-    color: #ff6171;
+    color: #ff919c;
 }
 
 .tombol {
     margin-top: 10px;
     width: 80%;
     padding: 8px;
-    border: 2px solid #ff6171;
+    border: 2px solid #ff919c;
     background: #f9f9f9;
-    color: #ff6171;
+    color: #ff919c;
     border-radius: 8px;
     outline: none !important;
     font-weight: bold;
@@ -91,8 +91,8 @@
 
 .tombol:hover {
     cursor: pointer;
-    border: 2px solid #ff6171;
-    background: #ff6171;
+    border: 2px solid #ff919c;
+    background: #ff919c;
     color: #f9f9f9;
 }
 
@@ -204,7 +204,7 @@
 }
 
 .home {
-    background: #ff6171;
+    background: #ff919c;
 }
 
 .halaman2 {
@@ -316,7 +316,7 @@
         width: 330px;
         align-items: center;
         align-content: center;
-        color: #ff6171;
+        color: #ff919c;
     }
     
     .tengah2 {
@@ -352,7 +352,7 @@
         width: 330px;
         align-items: center;
         align-content: center;
-        color: #ff6171;
+        color: #ff919c;
     }
     
     .tengah2 {
