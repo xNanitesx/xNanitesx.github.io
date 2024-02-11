@@ -81,7 +81,7 @@ function JalaninTeks() {
 };
 
 
-function PuterLagu() {
+function DenialPlay() {
     var denialvar = document.getElementById("denialmusic");
     return denialvar.paused ? denialvar.play() : denialvar.pause();
 };
