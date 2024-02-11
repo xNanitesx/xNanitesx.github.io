@@ -55,11 +55,13 @@ $('.kehalaman2').click(function() {
         PuterLagu();
         Ambilnama();
     }
+    /*
     else{
         setTimeout(function() {
             $('.denial').addClass('fadeIn');
         }, 1100);
     }
+    */
 });
 
 var i = 0;
