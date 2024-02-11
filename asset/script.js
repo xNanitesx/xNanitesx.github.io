@@ -46,7 +46,7 @@ $('.kehalaman2').click(function() {
     var ifname = document.getElementById("nama").value;
     document.getElementById("tampilnama").innerHTML = x
 
-    if(ifname.search("Tina") != -1) {
+    if(ifname.match("Tina") != null) {
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
         }, 1100);
@@ -65,6 +65,7 @@ $('.kehalaman2').click(function() {
 });
 
 var i = 0;
+var txt = "";
 var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
 var speed = 50;
 
