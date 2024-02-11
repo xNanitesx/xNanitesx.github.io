@@ -44,10 +44,10 @@ $('.kehome').click(function() {
 $('.kehalaman2').click(function() {
 
     var ifname = document.getElementById("nama").value;
-    console.log(ifname);
+    //console.log(ifname);
     //document.getElementById("tampilnama").innerHTML = ifname;
 
-    if(ifname != "Tina") {
+    if(ifname.search("Tina") != -1) {
     //if(document.getElementById("tampilnama").innerHTML.search("Tina") != -1){
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
@@ -57,13 +57,12 @@ $('.kehalaman2').click(function() {
         PuterLagu();
         Ambilnama();
     }
-    /*
     else{
         setTimeout(function() {
             $('.denial').addClass('fadeIn');
         }, 1100);
+        console.log("DENIAL PAGE NOW \n");
     }
-    */
 });
 
 var i = 0;
