@@ -44,6 +44,7 @@ $('.kehome').click(function() {
 $('.kehalaman2').click(function() {
 
     var ifname = document.getElementById("nama").value;
+    console.log(ifname);
     //document.getElementById("tampilnama").innerHTML = ifname;
 
     if(ifname != "Tina") {
