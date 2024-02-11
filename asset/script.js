@@ -48,7 +48,7 @@ $('.kehalaman2').click(function() {
     //console.log(ifname);
     //document.getElementById("tampilnama").innerHTML = ifname;
 
-    if(ifname.search("Tina") != -1) {
+    if((ifname.search("Tina") != -1)||(ifname.search("TINA") != -1)||(ifname.search("Poopoohead") != -1)||(ifname.search("Wife") != -1)||(ifname.search("Wifey") != -1)) {
     //if(document.getElementById("tampilnama").innerHTML.search("Tina") != -1){
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
