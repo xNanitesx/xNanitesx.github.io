@@ -38,6 +38,7 @@ $('.kehome').click(function() {
     }, 1100);
 
     PuterLagu();
+    DenialPlay();
 });
 
 
@@ -61,6 +62,7 @@ $('.kehalaman2').click(function() {
         setTimeout(function() {
             $('.denial').addClass('fadeIn');
         }, 1100);
+        DenialPlay();
         console.log("DENIAL PAGE NOW \n");
     }
 });
@@ -78,6 +80,11 @@ function JalaninTeks() {
     }
 };
 
+
+function PuterLagu() {
+    var denialvar = document.getElementById("denialmusic");
+    return denialvar.paused ? denialvar.play() : denialvar.pause();
+};
 
 function PuterLagu() {
     var lagu = document.getElementById("lagu");
