@@ -37,8 +37,8 @@ $('.kehome').click(function() {
         $('.home').addClass('fadeIn');
     }, 1100);
 
-    PuterLagu();
-    DenialPlay();
+    PuterLaguPause();
+    DenialPause();
 });
 
 
@@ -55,7 +55,7 @@ $('.kehalaman2').click(function() {
         }, 1100);
 
         JalaninTeks();
-        PuterLagu();
+        PuterLaguPlay();
         Ambilnama();
     }
     else{
@@ -83,12 +83,22 @@ function JalaninTeks() {
 
 function DenialPlay() {
     var denialvar = document.getElementById("denialmusic");
-    return denialvar.paused ? denialvar.play() : denialvar.pause();
+    return denialvar.play();
 };
 
-function PuterLagu() {
+function DenialPause() {
+    var denialvar = document.getElementById("denialmusic");
+    return denialvar.pause();
+};
+
+function PuterLaguPause() {
     var lagu = document.getElementById("lagu");
-    return lagu.paused ? lagu.play() : lagu.pause();
+    return lagu.pause();
+};
+
+function PuterLaguPlay() {
+    var lagu = document.getElementById("lagu");
+    return lagu.play();
 };
 
 function Ambilnama() {
