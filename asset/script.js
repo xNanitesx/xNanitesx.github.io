@@ -44,9 +44,10 @@ $('.kehome').click(function() {
 $('.kehalaman2').click(function() {
 
     var ifname = document.getElementById("nama").value;
-    document.getElementById("tampilnama").innerHTML = x
+    document.getElementById("tampilnama").innerHTML = x;
 
-    if(ifname.match("Tina") != null) {
+    //if(ifname.match("Tina") != null) {
+    if(document.getElementById("tampilnama").innerHTML.search("Tina") != -1){
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
         }, 1100);
