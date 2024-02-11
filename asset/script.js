@@ -56,7 +56,7 @@ $('.kehalaman2').click(function() {
 
         JalaninTeks();
         PuterLaguPlay();
-        Ambilnama();
+        //Ambilnama();
     }
     else{
         setTimeout(function() {
@@ -68,8 +68,8 @@ $('.kehalaman2').click(function() {
 });
 
 var i = 0;
-var txt = "";
-var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
+var txt = "thank you for accepting this bald short boi as your Valentine :') I can't wait to spend my first and all future valentine's day with my favourite talented, kind, pretty, innocent, crackhead girl! I shall pick you up at 4:30pm hehe, lets dress nice!";
+//var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
 var speed = 50;
 
 function JalaninTeks() {
@@ -101,7 +101,9 @@ function PuterLaguPlay() {
     return lagu.play();
 };
 
+/*
 function Ambilnama() {
     var x = document.getElementById("nama").value;
     document.getElementById("tampilnama").innerHTML = x;
 };
+*/
