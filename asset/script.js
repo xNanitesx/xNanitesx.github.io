@@ -46,7 +46,6 @@ $('.kehalaman2').click(function() {
     var ifname = document.getElementById("nama").value;
     document.getElementById("tampilnama").innerHTML = x
 
-    //var ifname = document.getElementById("nama").value;
     if(ifname.search("Tina") != -1) {
         setTimeout(function() {
             $('.halaman2').addClass('fadeIn');
@@ -55,6 +54,11 @@ $('.kehalaman2').click(function() {
         JalaninTeks();
         PuterLagu();
         Ambilnama();
+    }
+    else{
+        setTimeout(function() {
+            $('.denial').addClass('fadeIn');
+        }, 1100);
     }
 });
 
